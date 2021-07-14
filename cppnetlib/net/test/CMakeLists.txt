@@ -1,0 +1,14 @@
+add_executable(test_EventLoop test_event_loop.cc)
+target_link_libraries(test_EventLoop cppnetlib_net)
+
+add_executable(test_TimerContainer test_timer_container.cc)
+target_link_libraries(test_TimerContainer cppnetlib_net)
+
+add_executable(test_IOThreadPool test_io_thread_pool.cc)
+target_link_libraries(test_IOThreadPool cppnetlib_net)
+
+add_executable(test_Acceptor test_acceptor.cc)
+target_link_libraries(test_Acceptor cppnetlib_net)
+
+add_executable(test_TCPServer test_tcp_server.cc)
+target_link_libraries(test_TCPServer cppnetlib_net)

@@ -1,0 +1,2 @@
+add_executable(test_HTTPServer test_http_server.cc)
+target_link_libraries(test_HTTPServer cppnetlib_http)
